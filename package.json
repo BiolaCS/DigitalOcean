@@ -1,0 +1,16 @@
+{
+  "name": "post-server-python-trigger",
+  "version": "1.0.0",
+  "description": "Triggers a python script when receiving post data from front end",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Luke Sweatman",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^4.12.1",
+    "python-shell": "^0.5.0"
+  }
+}
